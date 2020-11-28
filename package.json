@@ -1,0 +1,22 @@
+{
+  "name": "node-blog",
+  "version": "1.0.0",
+  "author": "Terry",
+  "description": "My blog，built with Node.js，packaged into docker image",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yunTerry/node-blog"
+  },
+  "license": "MIT",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "latest"
+  },
+  "keywords": [
+    "Node.js",
+    "Docker"
+  ]
+}
